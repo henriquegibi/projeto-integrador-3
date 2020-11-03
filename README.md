@@ -39,6 +39,8 @@ Para construirmos um documento de requisitos, apresento aqui um exemplo, para qu
 
  - **MODELIO**: é um ambiente de modelagem de Código Aberto que pode ser estendido por meio de módulos para adicionar funcionalidades e serviços. Sua operação é muito intuitiva e, portanto, fácil de usar. Se você pegou o conceito do diagrama de caso de uso não terá problema para utilizar sua interface gráfica. Como todo software bem construído, ele possui documentação para você estudar seu uso, caso ainda reste alguma dúvida. Disponível em: [https://www.modelio.org/downloads/download-modelio.html](https://www.modelio.org/downloads/download-modelio.html). Acesso em: 10 mar. 2020.
 
+<hr>
+
 ### Atividade 1
 
 Como profissional de Sistemas de Informação, muitas vezes, você será requisitado a dar sua opinião técnica sobre qual o melhor processo de software para a construção de uma solução, baseado, inicialmente, nas especificações de requisitos principais e do que os usuários do novo Sistema esperam dele.
