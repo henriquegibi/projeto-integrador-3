@@ -43,27 +43,36 @@ Para construirmos um documento de requisitos, apresento aqui um exemplo, para qu
 
 ### Atividade 1
 
-Como profissional de Sistemas de Informação, muitas vezes, você será requisitado a dar sua opinião técnica sobre qual o melhor processo de software para a construção de uma solução, baseado, inicialmente, nas especificações de requisitos principais e do que os usuários do novo Sistema esperam dele.
+Um analista de negócios pediu sua ajuda para desenvolver um diagrama BPMN referentes a alguns casos de uso iniciais para o desenvolvimento de um comércio eletrônico para uma pizzaria delivery.
 
-A partir desses pressupostos, seu diretor encaminhou para você um documento contendo os principais requisitos para um subsistema de caixa de pagamento (PDV ou se preferir, o caixa do supermercado, da vendinha, etc...).
+Ele te passou uma lista de casos de uso e que são os seguintes:
 
-Como dado importante, o pessoal sênior do escritório, que avaliou inicialmente esses requisitos, definiu por consenso que o processo de Engenharia de software incremental é o mais adequado para seu desenvolvimento.
+**Atribuições do cliente:**
+- Escolher pizza ()
+- Encomendar pizza ()
+- Perguntar sobre a pizza ()
+- Pagar pela pizza ()
+- Receber a pizza ()
+- Comer a pizza()
 
-**Seguem a lista e os requisitos para o PDV**:
-1. Registrar os produtos (itens) vendidos em cada venda;
-2. Calcular o valor total de uma venda;
-3. Obter e apresentar as informações sobre cada produto mediante a leitura de seu Código de Barras;
-4. Reportar ao estoque os dados (qtd) dos produtos vendidos;
-5. Registrar cada venda completada com sucesso;
-6. Exigir senha pessoal do operador para operar o Sistema;
-7. Receber pagamentos em dinheiro ou cartão;
-8. Emitir mensalmente o relatório de estoque (entradas, saídas e saldo)
+**Atribuições do atendente:**
+- Receber o pedido ()
+- Acalmar o cliente ()
 
-**Pede-se, a partir desses parcos dados, que você entregue as seguintes tarefas**:
-1. Crie/Escreva uma justificativa para balizar a decisão de desenvolver o Sistema utilizando o processo incremental e não o cascata, pois um dos analistas do cliente está em dúvida com relação ao melhor processo;
-2. Identifique, a partir da lista de requisitos apresentada, quais são os funcionais e os não funcionais (monte uma Tabela e separe em duas colunas identificadas);
-3. Desenhe o Diagrama de Caso de uso geral desse Sistema;
-4. Desenhe o diagrama detalhado de caso de uso desse sistema.
+**Atribuições do Pizzaiolo:**
+- Preparar a pizza ()
+
+**Atribuições do Entregador:**
+- Entregar a pizza ()
+- Receber o pagamento ()
+
+**Seguem a lista e os requisitos para o PDV:**
+
+Pede-se, a partir desses dados, que você desenvolva um diagrama BPMN utilizando (piscina, raias para cada ator, identificadores de início e fim de processo, eventos intermediários, trocas de mensagens entre os atores, gatways entre outros) para essa lista de tarefas feitas pelos atores nesse processo.
+
+Utilize o bizagi para desenhar e depois gere um pdf do processo e submeta ao seu tutor para avaliação.
+
+Lembre-se há muitas formas de se montar esse processo seguindo as etapas dadas no exercício
 
 > Para isso, disponibilizamos este material complementar. 
 > **Casos de Uso (Use case)**. Disponível em: [https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/uml-casos-de-uso_v02-1.pdf](https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/uml-casos-de-uso_v02-1.pdf). Acesso em: 10 mar. 2020.
